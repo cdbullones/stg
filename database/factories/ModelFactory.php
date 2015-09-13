@@ -18,4 +18,16 @@ $factory->define(App\User::class, function ($faker) {
         'password' => str_random(10),
         'remember_token' => str_random(10),
     ];
+
+
+});
+
+$factory->define(App\Categoria::class, function ($faker) {
+    return [
+        'id' => $faker->id,
+        'nombre' => $faker->nombre,
+
+    ];
+
+
 });
