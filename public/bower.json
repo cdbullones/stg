@@ -1,0 +1,17 @@
+{
+  "name": "stg",
+  "version": "0.0.1",
+  "authors": [
+    "cdbullones and angelus"
+  ],
+  "description": "Paquetes del frontend del proyecto stg",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "stg.app",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "bootstrap-material-design": "~0.3.0"
+  }
+}
